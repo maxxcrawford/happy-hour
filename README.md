@@ -1,7 +1,8 @@
 # Happy Hour Invites
 
-While at [Brothers and Company](https://broco.com), I would host impromptu happy hour's in my office. To invite co-workers, I made these single page invite sites. Enjoy! :beers:
+Single page invite sites for random happy hours. Enjoy! :beers:
 
+- [December 21, 2020](https://maxxcrawford.github.io/happy-hour/pandemichristmas/)
 - [December 20, 2019](https://maxxcrawford.github.io/happy-hour/index-christmoz.html)
 - [March 15, 2019](https://maxxcrawford.github.io/happy-hour/index-fridge.html)
 - [August 31, 2018](https://maxxcrawford.github.io/happy-hour/index-13.html)
