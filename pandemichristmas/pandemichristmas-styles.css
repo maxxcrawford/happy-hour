@@ -1,0 +1,247 @@
+body {
+	background: url("https://media.giphy.com/media/PcKgXgisPwieA/giphy.gif") center center repeat #FFF;
+	padding: 2em;
+	margin: 0;
+}
+
+.top-border {
+	background: url("https://media.giphy.com/media/H1YGuEsxFy10JPPdah/giphy.gif") top center;
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 150px;
+	z-index: 99;
+	left: 0;
+}
+
+.bg {
+	background: url("https://media.giphy.com/media/PcKgXgisPwieA/giphy.gif") center center repeat;
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+main {
+	background: rgba(237, 37, 24, 0.83);
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2em 2em 4em;
+	position: relative;
+	box-shadow: 10px 10px 0 #165019;
+	z-index: 3;
+	color: white;
+	border-radius: 0;
+}
+
+h1 {
+
+}
+
+h1 br {
+	display: none;
+}
+
+h1 span {
+	font-family: 'Asset', cursive;
+	font-style: normal;
+	display: block;
+	padding: 0;
+}
+
+h1 em {
+	display: none;
+}
+
+.mark-wrapper {
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+mark {
+	background: #D7D7D7;
+	color: #1B983A;
+	font-family: 'Snowburst One', cursive;
+	text-shadow: 1px 1px 0 #0F520C;
+	/* font-family: 'Delius Swash Caps', cursive;
+	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Berkshire Swash', cursive; */
+	font-size: 120%;
+	font-weight: 300;
+}
+
+h2 {
+	font-family: 'Press Start 2P', cursive;
+	color: #F5DDD5;
+	position: relative;
+}
+
+h2 a {
+	display: inline-block;
+	text-decoration: none;
+	color: #F5DDD5;
+	border-bottom: 2px dashed #F5DDD5;
+	transition: transform 1s ease-out;
+}
+
+h2 a:hover {
+	color: white;
+	background: green;
+}
+
+.tv-border {
+	position: relative;
+	z-index: 3;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.tv-border > img {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+}
+
+.santa-mask {
+	position: absolute;
+	left: -100px;
+	bottom: -75px;
+	z-index: 5;
+	width: 300px;
+	display: block;
+	transform: rotate(-15deg);
+}
+
+.parrot {
+	position: absolute;
+	right: -20px;
+	bottom: 0;
+	z-index: 5;
+	width: 150px;
+	display: block;
+}
+
+.vaporwave {
+	position: absolute;
+	left: -20px;
+	bottom: 20px;
+	z-index: 5;
+	width: 230px;
+	display: none;
+	transform: rotate(-15deg);
+}
+
+.text {
+	position: absolute;
+	left: 0px;
+	bottom: 200px;
+	z-index: 5;
+	width: 100vw;
+	display: block;
+	transform: rotate(0deg);
+}
+
+.santa-rock {
+	position: absolute;
+	right: -200px;
+	top: 0;
+	z-index: 5;
+	width: 300px;
+	display: none;
+	transform: rotate(15deg);
+}
+
+@media only screen and (min-width: 600px) {
+
+	.santa-rock {
+		display: block;
+	}
+
+
+	.vaporwave {
+		display: block;
+	}
+
+	body {
+		padding-top: 4rem;
+	}
+
+	main {
+		padding: 0 2em 4em;
+	}
+
+	.santa-mask {
+		position: absolute;
+		left: -200px;
+		top: 50px;
+		z-index: 5;
+		width: 300px;
+		display: block;
+		transform: rotate(-15deg);
+	}
+
+	h1 span {
+		font-size: 2rem;
+		padding: 2rem 0 1rem;
+	}
+
+	.parrot {
+		position: absolute;
+		right: -50px;
+		bottom: auto;
+		top: 300px;
+		z-index: 5;
+		width: 200px;
+		display: block;
+		transform: rotate(-15deg);
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	h1 em {
+		display: inline;
+		font-style: normal;
+	}
+
+	.santa-mask {
+		left: -100px;
+		top: 20px;
+	}
+
+	.text {
+		position: absolute;
+		left: 300px;
+		bottom: 100px;
+		z-index: 5;
+		width: 500px;
+		display: block;
+		transform: rotate(-15deg);
+	}
+
+	.santa-rock {
+		right: -100px;
+	}
+
+	h2 a:hover {
+		transform: scale(5);
+	}
+
+}
+
+@media only screen and (min-width: 1400px) {
+	/* h1 {
+		font-size: 3em;
+	} */
+}
